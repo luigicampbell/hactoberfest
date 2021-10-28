@@ -1,3 +1,5 @@
 const helloJs = "Hello";
-console.log("HelloJs");
+console.log(helloJs);
 alert('hello js');
+const fruits = ["bananas", "apples", "strawberries"];
+console.log(fruits);
