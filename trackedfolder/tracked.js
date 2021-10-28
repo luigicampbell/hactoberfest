@@ -18,3 +18,7 @@ const fruitPies = fruits.map(fruit => {
     return { pie: `${fruit} pie` }
 });
 console.log(fruitPies);
+
+//spliced veggies
+const veggiesSpliced = veggies.splice(0,2);
+console.log(veggiesSpliced);
