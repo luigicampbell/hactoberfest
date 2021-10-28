@@ -2,11 +2,11 @@ const fruits = ["bananas", "apples", "strawberries"];
 console.log(fruits);
 
 //added array veggies
-const veggies = ["cucumbers", "broccolis", "kale", "other nasty shit"];
+const veggies = ["cucumber", "broccoli", "kale", "other nasty shit"];
 console.log(veggies);
 //for loop "a lot of [] around here"
 for (var i = 0; i < veggies.length; i++) { 
-    console.log("A lot of " + veggies[i] + " around here.");
+    console.log("Hella" + veggies[i] + " around here.");
 }
 //found the bug: needed explicit return to hoist object
 const fruitSalad = fruits.map(fruit => {
